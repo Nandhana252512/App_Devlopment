@@ -1,0 +1,52 @@
+.dashboard-container {
+    position: absolute;
+    display: flex;
+    background-color: #f4f4f9; /* Light background color for the dashboard */
+  }
+  
+  .dashboard-content {
+    margin-left: 250px; /* Adjust according to sidebar width */
+    padding: 30px;
+    width: calc(100% - 250px); /* Full width minus sidebar */
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px#f4f4f9(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .dashboard-stats {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .stat-item {
+    
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px#f4f4f9(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+  }
+  
+  .stat-item h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .stat-item p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .dashboard-graph {
+    margin-top: 20px;
+  }

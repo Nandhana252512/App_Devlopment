@@ -1,0 +1,36 @@
+.sidebar {
+  width: 270px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  position: fixed; /* Changed from absolute to fixed */
+  height: 100%;
+  top: 0; /* Ensure the sidebar starts from the top of the viewport */
+  left: 0; /* Ensure the sidebar is positioned at the left of the viewport */
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  text-align: center;
+  color: #fff;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
